@@ -43,7 +43,7 @@ public class java_proxy_server {
 	        client = ss.accept();
             System.out.println("1");
 	        final InputStream streamFromClient = client.getInputStream();
-	        System.out.println("2");
+	        System.out.println("23");
 	        final OutputStream streamToClient = client.getOutputStream();
 	        System.out.println("3");
 	        
